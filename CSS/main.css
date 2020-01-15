@@ -21,8 +21,92 @@
 
 .profile { 
     width: 1230px;
-    display: block;
+    display: flex;
+    justify-content: space-between;
     margin: 0 auto;
+}
+.aside {
+    background-color: #4a77b4;
+    color: white;
+}
+.aside_h1 {
+    text-align: center;
+    font-size: 146px;
+    margin-left: auto;
+}
+.aside_img {
+    padding-bottom: 170px;
+}
+.aside_span {
+    margin-top: 80px;
+    display: block;
+    text-align: center;
+}
+.aside_span_dots {
+    margin-left: 105px;
+    font-size: 60px;
+    text-align: center;
+    display: block;
+}
+.aside_line_img{
+    padding: auto;
+}
+.aside_p {
+    font-family: 'NexaLight';
+    font-size: 32px;
+    margin-top: 100px;
+    margin-left: 105px;
+    margin-right: 145px;
+}
+.aside_p_skill_achivement {
+    font-family: 'NexaLight';
+    font-size: 32px;
+    margin-top: 45px;
+    margin-left: 105px;
+    margin-right: 145px;
+}
+.aside_p_contact_me {
+    font-family: 'NexaBold';
+    font-size: 32px;
+    margin-top: 45px;
+    margin-left: 105px;
+    margin-right: 145px;
+}
+.aside_p_contact_me_phone {
+
+}
+.aside_p_contact_me_phone::before {
+    margin-right: 60px;
+    content: url(../ASSETS/phone_icon.png);
+}
+.aside_p_contact_me_geo {
+
+}
+.aside_p_contact_me_geo::before {
+    margin-right: 60px;
+    content: url(../ASSETS/position_icon.png);
+}
+.aside_p_contact_me_mail {
+
+}
+.aside_p_contact_me_mail::before {
+    margin-right: 60px;
+    content: url(../ASSETS/mail_icon.png);
+}
+.aside_h3 {
+    margin-top: 115px;
+    text-align: center;
+}
+.aside_list {
+    font-family: 'NexaBold';
+    font-size: 32px;
+    margin-top: 75px;
+    margin-left: 105px;
+    margin-right: 145px;
+}
+.aside_list_item::before {
+    margin-right: 50px;
+    content: url(../ASSETS/check_icon_white.png);
 }
 .section_p {
     margin-top: 50px;
@@ -32,13 +116,17 @@
 .section_p_dots {
     color: #b8b8b8;
     font-size: 60px;
-    margin-bottom: 80px;
+    padding-left: 220px;
+}
+.section_education_p_dots {
+    color: #b8b8b8;
+    font-size: 60px;
 }
 .section_img {
     size: 100%;
 }
 .main_section_list {
-    margin-top: 114px;
+    margin-top: 40px;
     margin-left: 234px;
 }
 .profile_main {
@@ -55,6 +143,7 @@
     font-size: 48px;
 }
 .h3_margin {
+    margin-top: 75px;
     margin-bottom: 40px;
 }
 .main_article_h1 {
@@ -77,12 +166,34 @@
     font-size: 32px;
     color: #9d9d9d;
 }
+.section_education_list {
+    padding-left: 240px;
+    margin-top: 60px;
+}
+.section_skills_list {
+    padding-left: 240px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section_skills_list_item {
+    font-family: 'NexaBold';
+    padding-bottom: 25px;
+    padding-right: 25px;
+    font-size: 24px;
+    flex-basis: 30%;
+    display: block;
+}
+.section_skills_list_item::before {
+    content: url(../ASSETS/check_icon_blue.png);
+    padding-right: 15px;
+}
 .list_item_img {
-
+    
 }
 .list_item_img::before {
     content: url(../ASSETS/check_icon.png);
+    padding-bottom: 70px;
+    padding-right: 50px;
     float: left;
-    padding-right: 150px;
-    padding-bottom: 100px;
 }
